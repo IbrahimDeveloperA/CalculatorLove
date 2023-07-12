@@ -1,4 +1,4 @@
-package com.example.calculatorlove.ui.calculator
+package com.example.calculatorlove.ui.calculator.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
@@ -14,5 +14,9 @@ class LoveViewModel @Inject constructor(
 
     fun getLoveData(firstName: String, secondName: String): LiveData<LoveModel> {
         return repository.getPercentage(firstName, secondName)
+    }
+
+    fun insert(loveModel: LoveModel){
+        repository.insert(loveModel)
     }
 }

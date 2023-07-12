@@ -9,6 +9,7 @@ import by.kirich1409.viewbindingdelegate.viewBinding
 import com.example.calculatorlove.R
 import com.example.calculatorlove.databinding.FragmentOnBordBinding
 import com.example.calculatorlove.ui.onBord.adapter.AdapterOnBord
+import com.example.calculatorlove.ui.onBord.viewmodel.OnBordViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -16,7 +17,7 @@ class OnBordFragment  : Fragment(R.layout.fragment_on_bord) {
 
     private val binding: FragmentOnBordBinding by viewBinding(FragmentOnBordBinding::bind)
     private lateinit var adapterOnBord: AdapterOnBord
-    private val viewModel:OnBordViewModel by viewModels ()
+    private val viewModel: OnBordViewModel by viewModels ()
 
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

@@ -1,4 +1,4 @@
-package com.example.calculatorlove.ui.onBord
+package com.example.calculatorlove.ui.onBord.viewmodel
 
 import android.content.SharedPreferences
 import androidx.lifecycle.ViewModel

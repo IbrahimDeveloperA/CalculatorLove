@@ -24,4 +24,14 @@
         android:name="com.example.calculatorlove.ui.onBord.OnBordFragment"
         android:label="fragment_on_bord"
         tools:layout="@layout/fragment_on_bord" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.calculatorlove.ui.history.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/changeFragment"
+        android:name="com.example.calculatorlove.ui.change.ChangeFragment"
+        android:label="fragment_change"
+        tools:layout="@layout/fragment_change" />
 </navigation>
